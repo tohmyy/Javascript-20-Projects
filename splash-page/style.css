@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800&family=Lato:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&family=Rubik:wght@300;400;500&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: #54575A;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+  font-family: Lato, 'sans-serif';
+}
+
+/* Background Toggles */
+
+
+.background-toggles{
+  position: absolute;
+  right: 150px;
+  top: 70px;
+  display: flex;
+}
+
+.background-toggles > div {
+  height:25px;
+  background-color: green;
+  width: 25px;
+  border-radius: 5px;
+  margin-right: 10px;
+  box-shadow: 0 2px 5px 2px rgba(0, 0, blue, 0.3);
+  cursor: pointer;
+}
+
+/* Background Toggles */
+
+.background-1 {
+  background: #FFEEEE;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(-160deg, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-160deg, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.background-2 {
+  background-color: #f6f6f6;
+  background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%23b8b8b8' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E");
+}
+
+.background-3 {
+  background: #ADA996;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(-20deg, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-20deg, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.wrapper{
+  position: relative;
+  width: 1920px;
+  min-height: 100vh;
+  margin: auto;
+/* background: dodgerblue; */
+/* background: linear-gradient(180deg, #FFFFFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%); */
+}
+
+.logo{
+  position: absolute;
+  width: 193px;
+  height: 47.64px;
+  left: 221px;
+  top: 50.25px;
+
+}
+
+.title{
+  position: absolute;
+  width: 458px;
+  height: 135px;
+  left: 221px;
+  top: 236px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 68px;
+}
+
+.text{
+  position: absolute;
+  width: 394px;
+  height: 96px;
+  left: 221px;
+  top: 403px;
+
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+
+}
+
+.app-store-btn{
+  position: absolute;
+  left: 221px;
+  top: 531px;
+
+}
+
+.app-store-btn img{
+  width: 138.44px;
+  height: 46.28px;
+}
+
+.play-store-btn{
+  position: absolute;
+  left: 381.81px;
+  top: 531px;
+
+}
+
+.play-store-btn img{
+  width: 156.19px;
+  height: 46.28px;
+}
+
+.main-image{
+  position: absolute;
+  width: 535.72px;
+  height: 309.27px;
+  
+  left: 683.28px;
+  top: 229.73px;
+}
+
+.main-image img{
+  height: 411.15px;
+}
+
+.profile-img{
+  position: absolute;
+height: 444px;
+left: 737px;
+right: 479px;
+top: 686px;
+
+filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+.profile-img img{
+
+}
+
+.product-img{
+  position: absolute;
+height: 222px;
+left: 737px;
+right: 479px;
+top: 1157px;
+
+filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+  
+}
+.orders-img{
+  position: absolute;
+  height: 444px;
+  left: 479px;
+  right: 737px;
+  top: 913px;
+  
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+.cart-img{
+  position: absolute;
+  height: 222px;
+  left: 221px;
+  right: 995px;
+  top: 1157px;
+  
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+.home-img{
+  position: absolute;
+  height: 444px;
+  left: 995px;
+  right: 221px;
+  top: 908px;
+  
+  filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.25));
+}
+
+
+
+
